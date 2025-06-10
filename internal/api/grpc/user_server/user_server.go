@@ -1,8 +1,8 @@
 package user_server
 
 import (
-	"github.com/ewik2k21/grpc_simple/internal/api/grpc/handlers"
 	user "github.com/ewik2k21/grpc_simple/pkg/proto/user_api_v1"
+	"github.com/ewik2k21/grpc_simple_user/internal/api/grpc/handlers"
 	"github.com/sirupsen/logrus"
 	"google.golang.org/grpc"
 	"net"

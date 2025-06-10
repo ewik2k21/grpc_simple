@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/ewik2k21/grpc_simple/config"
-	"github.com/ewik2k21/grpc_simple/internal/api/grpc/user_server"
+	"github.com/ewik2k21/grpc_simple_user/config"
+	"github.com/ewik2k21/grpc_simple_user/internal/api/grpc/user_server"
 	"github.com/sirupsen/logrus"
 	"os"
 )

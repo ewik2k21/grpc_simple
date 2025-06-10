@@ -1,8 +1,9 @@
-module github.com/ewik2k21/grpc_simple
+module github.com/ewik2k21/grpc_simple_user
 
 go 1.23.6
 
 require (
+	github.com/ewik2k21/grpc_simple v0.0.0-20250609153135-43d0c02bfff8
 	github.com/joho/godotenv v1.5.1
 	github.com/sirupsen/logrus v1.9.3
 	google.golang.org/grpc v1.73.0

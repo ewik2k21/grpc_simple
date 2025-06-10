@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+
+  go-app:
+    container_name: grpc_user
+    build: .
+    ports:
+      - "50052:50052"
+
+
+
+
